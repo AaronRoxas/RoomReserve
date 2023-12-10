@@ -9,6 +9,8 @@ RoomReserve is a simple reservation system for managing room bookings. It allows
 <!-- Add a screenshot of the application -->
 ![image](https://github.com/AaronRoxas/RoomReserve/assets/93905441/658a4c17-63f4-499f-9521-78d33c86655f)
 ![image](https://github.com/AaronRoxas/RoomReserve/assets/93905441/136e159c-949a-4d32-be95-8e3c6bba912f)
+![image](https://github.com/AaronRoxas/RoomReserve/assets/93905441/9175daa7-210b-4bcc-855f-1f1227acc00b)
+
 
 
 ## Features
@@ -44,7 +46,7 @@ This project is licensed under the [MIT License].
 
 ## Acknowledgements
 
-Special thanks to [AaronRoxas](https://github.com/AaronRoxas) for creating this project.
+Special thanks to [bernaaa14](https://github.com/bernaaa14/) for contributing to this project.
 
 ## Contact
 
