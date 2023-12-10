@@ -1,34 +1,21 @@
 package com.mycompany.roomreserve;
-import com.sun.tools.javac.Main;
-import com.toedter.calendar.JTextFieldDateEditor;
 import java.awt.Color;
 import java.awt.Cursor;
-import java.awt.Font;
-import java.awt.GraphicsEnvironment;
-import java.io.File;
-import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
-/**
- *
- * @author aaron
- */
 public class MainScreen extends javax.swing.JFrame {
     
     public MainScreen() 
     {
-        initComponents();  
-        
+        initComponents();    
     }
-    
     public static int total = 0;
     public static int checkIn;
     public static int checkOut; 
@@ -63,6 +50,7 @@ public class MainScreen extends javax.swing.JFrame {
         setTitle("Room Ready");
         setAlwaysOnTop(true);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
+        setMaximumSize(new java.awt.Dimension(810, 478));
         setMinimumSize(new java.awt.Dimension(810, 478));
         setResizable(false);
         setSize(new java.awt.Dimension(810, 478));
@@ -104,21 +92,13 @@ public class MainScreen extends javax.swing.JFrame {
         bedIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bedR.png"))); // NOI18N
 
         roomTypeLbl.setFont(new java.awt.Font("Quicksand SemiBold", 0, 12)); // NOI18N
-        roomTypeLbl.setForeground(new java.awt.Color(0, 0, 0));
         roomTypeLbl.setText("Room Type");
 
-        roomCmb.setBackground(new java.awt.Color(255, 255, 255));
         roomCmb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Standard Room", "Family Suite", "Executive Suite", "Pool-side Suite" }));
-        roomCmb.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                roomCmbActionPerformed(evt);
-            }
-        });
 
         checkInIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/check-inR.png"))); // NOI18N
 
         checkInLbl.setFont(new java.awt.Font("Quicksand SemiBold", 0, 12)); // NOI18N
-        checkInLbl.setForeground(new java.awt.Color(0, 0, 0));
         checkInLbl.setText("Check-in");
 
         checkOutChooser.setBackground(new java.awt.Color(255, 255, 255));
@@ -132,7 +112,6 @@ public class MainScreen extends javax.swing.JFrame {
         checkOutIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/check-outR.png"))); // NOI18N
 
         checkOutLbl.setFont(new java.awt.Font("Quicksand SemiBold", 0, 12)); // NOI18N
-        checkOutLbl.setForeground(new java.awt.Color(0, 0, 0));
         checkOutLbl.setText("Check-out");
 
         checkInChooser.setBackground(new java.awt.Color(255, 255, 255));
@@ -224,7 +203,6 @@ public class MainScreen extends javax.swing.JFrame {
         footerPanel.setBounds(20, 310, 760, 110);
 
         homeLbl.setFont(new java.awt.Font("Quicksand Light", 0, 18)); // NOI18N
-        homeLbl.setForeground(new java.awt.Color(0, 0, 0));
         homeLbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         homeLbl.setText("Home");
         getContentPane().add(homeLbl);
@@ -256,10 +234,6 @@ public class MainScreen extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void roomCmbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_roomCmbActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_roomCmbActionPerformed
 
     private void roomLblMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_roomLblMouseClicked
         // TODO add your handling code here:
