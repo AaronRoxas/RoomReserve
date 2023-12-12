@@ -22,8 +22,8 @@ RoomReserve is a simple reservation system for managing room bookings. It allows
 - **Price Calculation:** Computes the total price based on the selected room type and duration of stay.
 
 ## Installation
+To run this application locally, download [here.](https://github.com/AaronRoxas/RoomReserve/raw/final/RoomReserve.exe)
 
-To run this application locally, download [here.](https://github.com/AaronRoxas/RoomReserve/blob/final/RoomReserve.exe)
 
 ## Technologies Used
 
