@@ -23,13 +23,7 @@ RoomReserve is a simple reservation system for managing room bookings. It allows
 
 ## Installation
 
-To run this application locally, follow these steps:
-
-To run the RoomReserve application:
-1. Ensure you have Java installed on your system.
-2. Compile the `MainScreen.java` file.
-3. Run the compiled Java file to launch the application.
-4. Or download the RoomReserve-1.0-SNAPSHOT-jar-with-dependencies.jar
+To run this application locally, download [here.](https://github.com/AaronRoxas/RoomReserve/blob/final/RoomReserve.exe)
 
 ## Technologies Used
 
